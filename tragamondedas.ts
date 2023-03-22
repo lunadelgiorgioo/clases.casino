@@ -11,7 +11,7 @@ export default class Tragamonedas extends JuegoCasino{
     jugarTragamonedas(btnCorrer: boolean, premio: boolean, apuestaMin: boolean) {
         btnCorrer = true;
         apuestaMin = true;
-        if (btnCorrer === true && apuestaMin === true){
+        if (btnCorrer && apuestaMin){
             premio = true;
             console.log('FELICITACIONES, HA GANADO EL TRIPLE DE SU APUESTA:)');
         } else {
