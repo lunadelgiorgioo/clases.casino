@@ -3,7 +3,7 @@ enum Cartas{
     picas=1, corazon, trebol, rombo
 }
 export default class Poker extends JuegoCasino{
-    private carta: Cartas;
+    private carta: Cartas = Cartas.picas;
     private crupier: boolean;
     private premio: number;
     constructor(apuestaMin: boolean, descripcion: string, carta:Cartas, fichas: number, premio: number){
